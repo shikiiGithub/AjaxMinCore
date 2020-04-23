@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AjaxMin", "ShareProj\AjaxMin.shproj", "{E980B4EF-51F4-412C-BC4E-E68F7941AA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxMin.NetStandard", "AjaxMin.NetStandard\AjaxMin.NetStandard.csproj", "{78B36FE1-C827-47CA-AEEB-2E5246B9D1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxMin.NetCore", "AjaxMin.NetCore\AjaxMin.NetCore.csproj", "{0D961543-5B54-4A49-8CF4-9F3397C0E4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxMin.NET4.0", "AjaxMin.NET4.0\AjaxMin.NET4.0.csproj", "{A6BA77F0-C7AA-4C10-8905-310DAB68D67F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ShareProj\AjaxMin.projitems*{0d961543-5b54-4a49-8cf4-9f3397c0e4f4}*SharedItemsImports = 5
+		ShareProj\AjaxMin.projitems*{78b36fe1-c827-47ca-aeeb-2e5246b9d1d6}*SharedItemsImports = 5
+		ShareProj\AjaxMin.projitems*{a6ba77f0-c7aa-4c10-8905-310dab68d67f}*SharedItemsImports = 4
+		ShareProj\AjaxMin.projitems*{e980b4ef-51f4-412c-bc4e-e68f7941aa11}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B36FE1-C827-47CA-AEEB-2E5246B9D1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B36FE1-C827-47CA-AEEB-2E5246B9D1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B36FE1-C827-47CA-AEEB-2E5246B9D1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B36FE1-C827-47CA-AEEB-2E5246B9D1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D961543-5B54-4A49-8CF4-9F3397C0E4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D961543-5B54-4A49-8CF4-9F3397C0E4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D961543-5B54-4A49-8CF4-9F3397C0E4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D961543-5B54-4A49-8CF4-9F3397C0E4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BA77F0-C7AA-4C10-8905-310DAB68D67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BA77F0-C7AA-4C10-8905-310DAB68D67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BA77F0-C7AA-4C10-8905-310DAB68D67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BA77F0-C7AA-4C10-8905-310DAB68D67F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B02D7B20-BFA4-4674-B754-0F916AE4C385}
+	EndGlobalSection
+EndGlobal

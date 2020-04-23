@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Microsoft.Ajax.Utilities</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\ShareProj\AjaxMin.projitems" Label="Shared" />
+
+</Project>

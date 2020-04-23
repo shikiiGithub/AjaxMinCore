@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e980b4ef-51f4-412c-bc4e-e68f7941aa11</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AjaxMin</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BundleMinifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonStrings.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContextError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CssEncoderFallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssColorName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssErrorCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssScanner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssStrings.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Css\CssToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\activationobject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\AnalyzeNodeVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\arrayliteral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\aspnetblocknode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ast.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\astlist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\binaryop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\BindingIdentifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\BindingsVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\BindingTransform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\block.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\blockscope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\break.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\call.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\catchscope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\cccomment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccelif.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccelse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccend.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccif.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ccstatement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ClassNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\codesettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\CommaOperator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ComprehensionClause.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ComprehensionForClause.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ComprehensionIfClause.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ComprehensionNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\conditional.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\const.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\constantwrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\constantwrapperpp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\context.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\continue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\crunchenumerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\CustomNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\debugger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\declaration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\DetachReferences.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\directiveprologue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\documentcontext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\dowhile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\emptystatement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\EvaluateLiteralVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ExportNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\expr.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\FinalPassVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\for.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\forin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\functionobject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\functionscope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\gettersetter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\globalscope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\grouping.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\if.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\IModuleReference.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\importantcomment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ImportExportSpecifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ImportExportStatement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ImportNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\INameDeclaration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\INameReference.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\Initializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\IRenameable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ISourceMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\IterationStatement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\IVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\JScript.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\jserror.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\jskeyword.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\JSON.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\JSONOutputVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\jsparser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\jsscanner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\jstoken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\jsvariablefield.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\labeledstatement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\LexicalDeclaration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\LogicalNotVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\lookup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\MatchPropertiesVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\member.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\missing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ModuleDeclaration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ModuleScope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\NewParensVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\objectliteral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\objectliteralfield.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ObjectLiteralProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\opprec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\OutputVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\parameterdeclaration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ReferencesVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\regexpliteral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ReorderScopeVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\RequiresSeparatorVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ResolutionVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\return.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\ScriptSharpSourceMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\SourceMapFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\StatementStartVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\switch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\switchcase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\TemplateLiteral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\TemplateLiteralExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\thisliteral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\throw.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\TreeVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\try.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\unaryop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\V3SourceMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\var.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\variabledeclaration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\while.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\with.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JavaScript\withscope.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSEncoderFallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Minifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResourceStrings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringBuilderPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SwitchParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CommonStrings.resx" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Css\CssStrings.resx" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)JavaScript\JScript.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomDictionary.xml" />
+  </ItemGroup>
+</Project>
